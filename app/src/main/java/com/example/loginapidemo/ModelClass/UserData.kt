@@ -1,0 +1,30 @@
+package com.example.loginapidemo.ModelClass
+
+data class UserData(
+    val address: String,
+    val app_version: String,
+    val area: Any,
+    val city_id: Int,
+    val city_name: String,
+    val device_model: String,
+    val device_name: String,
+    val device_no: String,
+    val device_platform: String,
+    val device_type: Int,
+    val device_uuid: String,
+    val device_version: String,
+    var email: String,
+    val expired_date: Any,
+    var first_name: String,
+    val from_ip: String,
+    val fullName: String,
+    val id: Int,
+    val last_name: String,
+    val login_date: String,
+    val mobile_number: String,
+    val pincode: String,
+    val profile_picture: String,
+    val token: String,
+    val token_created_at: String,
+    val token_expire_at: String
+)
